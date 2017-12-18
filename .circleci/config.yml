@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    macos:
+      xcode: "8.3.3"
+
+    steps:
+      - checkout
+      - run: echo "hello world"
